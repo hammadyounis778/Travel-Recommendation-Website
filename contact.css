@@ -1,0 +1,56 @@
+/* Background Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contact Form Container */
+.contact-container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading */
+.contact-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input and Textarea Styling */
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+.contact-container button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.contact-container button:hover {
+    background-color: #0056b3;
+}
