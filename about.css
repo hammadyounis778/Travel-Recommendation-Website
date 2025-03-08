@@ -1,0 +1,44 @@
+#bg-img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    position: absolute;
+    top: 5%;
+    bottom: 90%;
+    color: white;
+    font-size: 300%;
+}
+#intro{
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    color: white;
+    font-size: x-large;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.269);
+}
+.team{
+    position: absolute;
+    top: 70%;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.388);
+    color: white;
+    gap: 80px;
+}
+.team p{
+    font-size: large;
+}
+
+
+ button {
+    font-size: large;
+    color: white;
+    background-color: #007BFF;
+    cursor: pointer;
+}
+button:hover{
+    color: #0056b3;
+}
