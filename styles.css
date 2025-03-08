@@ -1,0 +1,142 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007BFF;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.logo i {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-bar div a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.nav-bar div a:hover {
+    color: #ffcc00;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search button {
+    padding: 8px 12px;
+    border: none;
+    background-color: white;
+    color: #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+#bg-img{  
+    width: 100%;
+    height: auto;
+}
+#bg-img img{
+    mix-blend-mode: multiply;
+     width: 100%;
+    height: 100%;
+    object-fit:cover;
+
+
+}
+
+#para-one{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    font-size: 500%;
+    color: white;
+    margin: auto;
+    padding-left: 200px;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    bottom: 60%;
+    font-size: xx-large;
+}
+
+.icons i{
+    gap: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+    color:#007BFF
+}
+.book{
+    position: absolute;
+    top: 110%;
+    bottom: 20%;
+    padding-left: 50%;
+}
+.book button{
+    background-color:#007BFF;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+.book button:hover{
+    background-color:#0056b3 ;
+}
+
+.results{
+    position: absolute;
+    top: 20%;
+    bottom: 78%;
+    padding-left: 73%;
+}
+
+.results image{
+    width: 30px;
+    height: 30px;
+}
+.date-time{
+    position: absolute;
+    top: 18%;
+    bottom: 81%;
+    padding-left: 73%;
+    color: #090901fe;
+}
+
+.destination {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.destination img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
